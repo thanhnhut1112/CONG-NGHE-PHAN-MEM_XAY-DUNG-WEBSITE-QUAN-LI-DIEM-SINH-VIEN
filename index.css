@@ -1,0 +1,118 @@
+.site-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+.menu-main-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.menu-main-menu li.current a,.menu-main-menu li a:hover,.menu-main-menu li a:active,.menu-main-menu li a:focus {
+    color: #0cd1e8;
+    text-decoration: none;
+}
+
+.menu-main-menu li.current a:after,.menu-main-menu li a:hover:after,.menu-main-menu li a:active:after,.menu-main-menu li a:focus:after {
+    border-color: inherit;
+}
+
+.menu-main-menu a {
+    transition: all .3s ease;
+    color: var(--main-color);
+    font-weight: 600;
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    padding: 25px 0;
+    line-height: 1.33;
+}
+
+.menu-main-menu a:after {
+    transition: all .3s ease;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid transparent;
+    width: 100%;
+}
+#img{
+width:128px;
+height:128px;
+}
+#header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;
+    
+    }
+
+    #menu ul
+    {
+        list-style:none;
+    }
+    #menu a
+    {
+        float:left;
+        border: 4px solid white;
+        color: white;
+        display: block;
+        padding: 20px;
+        background-color: blue;
+        width:232px;
+        text-align:center;
+        text-decoration:none;
+        margin-right:2px;
+
+
+    }
+    #menu a:hover
+    {
+        background-color: #CC3399;
+        color: #FFFFFF;
+        text-decoration:underline;
+    }
+    #hcmu_footer_main{
+        
+        text-align:center;
+        text-decoration:none;
+        
+
+    }
+    #logo{
+        text-align:center;
+        border: 4px solid black;
+    }
+    #header {
+        background-color:blue;
+        color:white;
+        text-align:center;
+        padding:5px;
+        }
+
+        #tintuc{
+            background-color:white;
+            color:black;
+            text-align:center;
+            padding:7px;
+
+        }
+        #TINTUC{
+            background-color:orange;
+        color:blue;
+        text-align:center;
+        padding:2px; 
+        margin-right:2px;
+
+        }

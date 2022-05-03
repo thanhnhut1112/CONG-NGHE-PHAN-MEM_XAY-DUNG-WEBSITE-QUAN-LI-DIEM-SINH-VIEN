@@ -1,0 +1,181 @@
+.site-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+.menu-main-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.menu-main-menu li.current a,.menu-main-menu li a:hover,.menu-main-menu li a:active,.menu-main-menu li a:focus {
+    color: #0cd1e8;
+    text-decoration: none;
+}
+
+.menu-main-menu li.current a:after,.menu-main-menu li a:hover:after,.menu-main-menu li a:active:after,.menu-main-menu li a:focus:after {
+    border-color: inherit;
+}
+
+.menu-main-menu a {
+    transition: all .3s ease;
+    color: var(--main-color);
+    font-weight: 600;
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    padding: 25px 0;
+    line-height: 1.33;
+}
+
+.menu-main-menu a:after {
+    transition: all .3s ease;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid transparent;
+    width: 100%;
+}
+#img{
+width:128px;
+height:128px;
+}
+#header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;
+    
+    }
+
+    #menu ul
+    {
+        list-style:none;
+    }
+    #menu a
+    {
+        float:left;
+        border: 4px solid white;
+        color: white;
+        display: block;
+        padding: 20px;
+        background-color: blue;
+        width:232px;
+        text-align:center;
+        text-decoration:none;
+        margin-right:2px;
+
+
+    }
+    #menu a:hover
+    {
+        background-color: #CC3399;
+        color: #FFFFFF;
+        text-decoration:underline;
+    }
+    #hcmu_footer_main{
+        
+        text-align:center;
+        text-decoration:none;
+        
+
+    }
+    #logo{
+        text-align:center;
+        border: 4px solid black;
+    }
+    #header {
+        background-color:blue;
+        color:white;
+        text-align:center;
+        padding:5px;
+        }
+        #head {
+            background-color:blue;
+            color:white;
+            text-align:center;
+            padding:5px;
+            } 
+
+        #tintuc{
+            background-color:blue;
+            color:white;
+            text-align:center;
+            padding:5px;
+        }
+        #TINTUC{
+            background-color:orange;
+        color:blue;
+        text-align:center;
+        padding:2px; 
+        margin-right:2px ;
+
+        }
+        /* Định dạng header */
+.headeh {
+    background-color: #e9d8f4;
+    color: #58257b;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Định dạng thanh điều hướng trên cùng */
+  .topnav {
+    overflow: hidden;
+    background-color: #58257b;
+  }
+  
+  /* Định dạng link điều hướng */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Thay đổi màu liên kết khi di chuột qua */
+  .topnav a:hover {
+    background-color: #db7093;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Tạo ba cột bằng nhau, float cạnh nhau */
+  .column {
+    background-color: none;
+    float: left;
+    padding: 10px;
+    display: block;
+    background-image: url('https://www.google.com.vn/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D105686880907220&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FCongtacsinhvienUT%2Fposts&tbnid=yjfU7WOId7oL6M&vet=12ahUKEwiO-6Hx8rr3AhXrj9gFHVdoBNMQMygXegUIARDIAQ..i&docid=KMrb2yuF04gKHM&w=1075&h=1002&q=GI%E1%BB%9AI%20THI%E1%BB%86U%20%C4%90%E1%BB%8AA%20H%E1%BB%8CC%20GIAO%20TH%C3%94NG%20V%E1%BA%ACN%20T%E1%BA%A2I%20TP%20HCM%20&ved=2ahUKEwiO-6Hx8rr3AhXrj9gFHVdoBNMQMygXegUIARDIAQ'); width: 100% ;
+
+  }
+  
+  /* Clear float khác sau các cột */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+  
+  /* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+  có chiều rộng dưới 600px */
+    @media screen and (max-width:600px) {
+      .column {
+      width: 100%;
+    }
+  }
+

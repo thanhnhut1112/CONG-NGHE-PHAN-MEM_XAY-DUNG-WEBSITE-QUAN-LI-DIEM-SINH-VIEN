@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+}
+#form{
+width: 30%;
+display: block;
+border: 1px solid silver;
+margin: auto;
+background-color: aliceblue;
+
+}
+#form p{
+    margin-top:12px ;
+}
+#form a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+#form .Login{
+    margin: 0px 10px;
+}
+#form input{
+    width: 100%;
+    padding: 6px 5px;
+    border: 1px solid silver;
+    border-radius:6px;
+}
+#form .Login-btn{
+    display: block;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#form .Login-btn_fgpw{
+    display: block;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#form .Login-btn:hover{
+cursor: pointer;
+}
+body{
+    margin-top: 5%;
+    background-image: url('img/linh cơ.jpg') ;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

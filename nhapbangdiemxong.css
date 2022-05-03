@@ -1,0 +1,17 @@
+#header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+#bangdiem{
+    text-align:center;
+    }
+    #button{
+        text-align:center;
+    }
+    #p{
+        text-align:center;
+        color:red;
+        size:40px;
+    }

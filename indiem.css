@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form img {
+    width: 100%;
+}
+#header{
+    height: 60px;
+    background-color:#fff;
+    box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.6);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    
+}
+#header .header-container li{
+    display: inline-block;
+    line-height: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#header .header-container{
+    display: inline-block;
+    float: right;
+}
+#header .header-container li a{
+    text-decoration: none;
+    display:inline-block;
+    color: black;
+}
+#header .header-container li img{
+    width: 25px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    
+}
+#header .header-container li:hover{
+    background-color: darkgrey;
+}
+        
+body{
+    margin-bottom: 150px;
+   background-image: url(/img/linh\ cơ.jpg);
+}
+
+ul li{
+    list-style-type:cursor;
+}
+h1{
+    padding-bottom: 20px;
+    color: orange   ;
+    text-align: center;
+  }
+.option p{
+display: inline-block;
+margin-left: 5px;
+color: yellow;
+}
+.option select{
+    margin-right: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 5px 0px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+    text-align: center;
+    width:100px;
+    float: right
+}
+.option select option{
+    background-color: antiquewhite;
+}
+.option {
+    margin-top: 20px;
+    float: left;
+}
+.one-option{
+    width: 25%;
+    display: inline-block;
+}
+button{
+    width:50px;
+    height: 30px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+}
+.one-option a{
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+    float: right;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+  
